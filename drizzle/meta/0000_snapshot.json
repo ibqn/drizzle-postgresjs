@@ -1,10 +1,10 @@
 {
-  "id": "bbc6bc9f-4014-4c39-bbfa-3de377d780f7",
+  "id": "cafae8d6-14e2-491c-bf8f-142b36d98845",
   "prevId": "00000000-0000-0000-0000-000000000000",
-  "version": "5",
-  "dialect": "pg",
+  "version": "7",
+  "dialect": "postgresql",
   "tables": {
-    "transaction": {
+    "public.transaction": {
       "name": "transaction",
       "schema": "",
       "columns": {
@@ -59,7 +59,7 @@
       "compositePrimaryKeys": {},
       "uniqueConstraints": {}
     },
-    "user": {
+    "public.user": {
       "name": "user",
       "schema": "",
       "columns": {
@@ -84,6 +84,7 @@
   },
   "enums": {},
   "schemas": {},
+  "sequences": {},
   "_meta": {
     "columns": {},
     "schemas": {},

@@ -5,19 +5,19 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "db:generate": "drizzle-kit generate:pg"
+    "db:generate": "drizzle-kit generate"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "drizzle-orm": "^0.30.10",
-    "postgres": "^3.3.3"
+    "drizzle-orm": "^0.32.0",
+    "postgres": "^3.4.4"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
-    "drizzle-kit": "0.20.18",
+    "drizzle-kit": "^0.23.0",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
   },
