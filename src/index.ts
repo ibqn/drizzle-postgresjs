@@ -14,7 +14,7 @@ const main = async () => {
   await migrate(drizzle(migrationConnection), { migrationsFolder: "drizzle" });
   await migrationConnection.end();
 
-  // await db.insert(user).values([{ name: 'alef' }, { name: 'bolk' }]);
+  await db.insert(user).values([{ name: "alef" }, { name: "bolk" }]);
   console.log(await db.select().from(user));
   process.exit(0);
 };

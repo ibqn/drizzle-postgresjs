@@ -1,8 +1,8 @@
 {
+  "id": "bbc6bc9f-4014-4c39-bbfa-3de377d780f7",
+  "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
-  "id": "3a223fc9-9175-4c1c-a33a-b7deb30fa654",
-  "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "transaction": {
       "name": "transaction",
@@ -56,7 +56,8 @@
           "onUpdate": "no action"
         }
       },
-      "compositePrimaryKeys": {}
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
     },
     "user": {
       "name": "user",
@@ -77,14 +78,15 @@
       },
       "indexes": {},
       "foreignKeys": {},
-      "compositePrimaryKeys": {}
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
     }
   },
   "enums": {},
   "schemas": {},
   "_meta": {
+    "columns": {},
     "schemas": {},
-    "tables": {},
-    "columns": {}
+    "tables": {}
   }
 }
