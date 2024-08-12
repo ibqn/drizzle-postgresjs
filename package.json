@@ -5,21 +5,22 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "drizzle-orm": "^0.32.0",
+    "drizzle-orm": "^0.33.0",
     "postgres": "^3.4.4"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
-    "drizzle-kit": "^0.23.0",
-    "tsx": "^4.16.2",
-    "typescript": "^5.5.3"
+    "@types/node": "^22.2.0",
+    "drizzle-kit": "^0.24.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
   },
-  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5"
+  "packageManager": "pnpm@9.7.0+sha256.b35018fbfa8f583668b2649e407922a721355cd81f61beeb4ac1d4258e585559"
 }
