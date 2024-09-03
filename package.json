@@ -17,9 +17,9 @@
     "postgres": "^3.4.4"
   },
   "devDependencies": {
-    "@types/node": "^22.2.0",
-    "drizzle-kit": "^0.24.0",
-    "tsx": "^4.17.0",
+    "@types/node": "^22.5.2",
+    "drizzle-kit": "^0.24.2",
+    "tsx": "^4.19.0",
     "typescript": "^5.5.4"
   },
   "packageManager": "pnpm@9.7.0+sha256.b35018fbfa8f583668b2649e407922a721355cd81f61beeb4ac1d4258e585559"
